@@ -26,6 +26,7 @@ h3 {
 }
 
 img {
+    padding-top: 10px;
     display: block;
     height: 300px;
     width: 300px;
