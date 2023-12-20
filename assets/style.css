@@ -2,33 +2,35 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-size: 1.25em;
+}
+
 
 header,
 footer {
+    padding-bottom: 10px;
     width: 100%;
-    height: 375px;
+    height: max-content;
     background-color: lightskyblue;
     color: white;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
 }
+
 h2 {
     text-align: center;
-    font-size: 40px;
 }
 
 h3 {
     text-align: center;
-    font-size: 30px;
 }
 
 img {
     padding-top: 10px;
     display: block;
-    height: 300px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -36,16 +38,14 @@ img {
 
 ul,
 ol {
-    padding-left: 40px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 30px;
+    padding-left: 2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
 }
 
 p {
     text-align: center;
-    font-size: 25px;
-    padding-top: 30px;
+    padding-top: 1.5em;
 }
 
 .card {
@@ -59,4 +59,11 @@ p {
     padding-top: 50px;
 }
 
-
+@media (max-width: 800px) {
+    body {
+        font-size: 1em;
+    }
+    img {
+        width: 200px;
+    }
+}
