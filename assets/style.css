@@ -59,11 +59,11 @@ p {
     padding-top: 50px;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     body {
         font-size: 1em;
     }
     img {
         width: 200px;
     }
-} */
+}
