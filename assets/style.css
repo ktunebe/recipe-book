@@ -23,6 +23,8 @@ h1 {
 
 h2 {
       text-align: center;
+      color: navy;
+      font-size: 1.8em;
 }
 
 h3 {
@@ -52,8 +54,23 @@ p {
 .card {
       width: 80%;
       margin: 40px auto;
-      border: 5px solid gray;
-      box-shadow: 5px 10px #888888;
+      border: 5px solid navy;
+      border-radius: 10px;
+      box-shadow: 5px 10px navy;
+}
+
+.card h2 {
+      font-size: 1.5em;
+      color: navy;
+      border-bottom: 5px solid navy;
+      border-radius: 10px;
+}
+
+.card h3 {
+      font-size: 1.5em;
+      color: navy;
+      border-bottom: 5px solid navy;
+      border-radius: 10px;
 }
 
 .intro {
