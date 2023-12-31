@@ -1,69 +1,71 @@
 * {
-    margin: 0;
-    padding: 0;
+      margin: 0;
+      padding: 0;
 }
+
 body {
-    font-size: 1.25em;
+      font-size: 1.25em;
 }
 
 
 header,
 footer {
-    padding-bottom: 10px;
-    width: 100%;
-    height: max-content;
-    background-color: lightskyblue;
-    color: white;
+      padding-bottom: 10px;
+      width: 100%;
+      height: max-content;
+      background-color: lightskyblue;
+      color: white;
 }
 
 h1 {
-    text-align: center;
+      text-align: center;
 }
 
 h2 {
-    text-align: center;
+      text-align: center;
 }
 
 h3 {
-    text-align: center;
+      text-align: center;
 }
 
 img {
-    padding-top: 10px;
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+      padding-top: 10px;
+      display: block;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 ul,
 ol {
-    padding-left: 2em;
-    margin-bottom: 1em;
-    line-height: 1.5em;
+      padding-left: 2em;
+      margin-bottom: 1em;
+      line-height: 1.5em;
 }
 
 p {
-    text-align: center;
-    padding-top: 1.5em;
+      text-align: center;
+      padding-top: 1.5em;
 }
 
 .card {
-    width: 80%;
-    margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+      width: 80%;
+      margin: 40px auto;
+      border: 5px solid gray;
+      box-shadow: 5px 10px #888888;
 }
 
 .intro {
-    padding-top: 50px;
+      padding-top: 50px;
 }
 
 @media (max-width: 800px) {
-    body {
-        font-size: 1em;
-    }
-    img {
-        width: 200px;
-    }
+      body {
+            font-size: 1em;
+      }
+
+      img {
+            width: 200px;
+      }
 }
