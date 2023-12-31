@@ -60,6 +60,26 @@ p {
       padding-top: 50px;
 }
 
+.home {
+      margin: 30px auto 30px auto;
+      text-align: center;
+}
+
+.home a {
+      background-color: navy;
+      text-decoration: none;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 30px;
+      transition: all 250ms ease-out;
+}
+
+.home a:hover {
+      background-color: navy;
+      padding: 10px 50px;
+      transition: all 250ms ease-out;
+}
+
 @media (max-width: 800px) {
       body {
             font-size: 1em;
