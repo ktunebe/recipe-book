@@ -5,6 +5,7 @@
 
 body {
       font-size: 1.25em;
+      background-color: rgb(237, 249, 255);
 }
 
 
@@ -92,7 +93,8 @@ p {
 }
 
 .home a:hover {
-      background-color: navy;
+      background-color: #F46036;
+      font-weight: bold;
       padding: 10px 50px;
       transition: all 250ms ease-out;
 }
