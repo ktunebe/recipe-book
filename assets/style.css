@@ -43,6 +43,7 @@ img {
 ul,
 ol {
       padding-left: 2em;
+      padding-right: 2em;
       margin-bottom: 1em;
       line-height: 1.5em;
 }
@@ -97,6 +98,22 @@ p {
       font-weight: bold;
       padding: 10px 50px;
       transition: all 250ms ease-out;
+}
+
+/* Ingredient lists will have no bullet points but checkboxes instead. */
+.ingredient-list {
+      padding-left: 1em;
+      list-style-type: none;
+}
+
+.ingredient-box {
+      margin-right: 1em;
+}
+
+/* Checkboxes will line out checked ingredients */
+.ingredient-box:checked + span {
+      font-style: italic;
+      color: gray;
 }
 
 @media (max-width: 800px) {
