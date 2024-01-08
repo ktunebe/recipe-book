@@ -100,14 +100,15 @@ p {
       transition: all 250ms ease-out;
 }
 
-/* Ingredient lists will have no bullet points but checkboxes instead. */
+/* Ingredient lists will have no bullet points but checkboxes instead. Padding in addition to a negative text indent makes it so that the second line, when applicable, begins below the first line of text and not the checkbox. This is necessary because the checkbox is part of the li and not the list-style type.*/
 .ingredient-list {
-      padding-left: 1em;
+      padding-left: 2.7em;
       list-style-type: none;
+      text-indent: -1.6em;
 }
 
 .ingredient-box {
-      margin-right: 1em;
+      margin-right: .5em;
 }
 
 /* Checkboxes will line out checked ingredients */
