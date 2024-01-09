@@ -16,6 +16,8 @@ footer {
       height: max-content;
       background-color: lightskyblue;
       color: white;
+      text-shadow: 2px 2px 2px navy;
+      font-variant: small-caps;
 }
 
 h1 {
@@ -79,6 +81,7 @@ p {
       padding-top: 50px;
 }
 
+/* Styling the "Back to Home" link. */
 .home {
       margin: 30px auto 30px auto;
       text-align: center;
@@ -87,6 +90,7 @@ p {
 .home a {
       background-color: navy;
       text-decoration: none;
+      outline-color: transparent;
       color: white;
       padding: 10px 30px;
       border-radius: 30px;
@@ -98,6 +102,10 @@ p {
       font-weight: bold;
       padding: 10px 50px;
       transition: all 250ms ease-out;
+}
+
+.home a:active {
+      background-color: lightskyblue;
 }
 
 /* Ingredient lists will have no bullet points but checkboxes instead. Padding in addition to a negative text indent makes it so that the second line, when applicable, begins below the first line of text and not the checkbox. This is necessary because the checkbox is part of the li and not the list-style type.*/
